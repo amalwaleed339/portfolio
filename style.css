@@ -138,3 +138,28 @@ transform:translateY(-5px);
 background:#0ea5e9;
 
 }
+.logo span{
+
+color:#38bdf8;
+
+}
+
+nav{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+background:#0f172a;
+
+z-index:1000;
+
+padding:25px 10%;
+
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+
+}

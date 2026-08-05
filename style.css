@@ -443,3 +443,48 @@ transition:.3s;
 transform:translateY(-5px);
 
 }
+/*=====================
+     Responsive
+======================*/
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+nav{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.content h2{
+
+font-size:45px;
+
+}
+
+.hero-image img{
+
+width:250px;
+
+height:250px;
+
+}
+
+}
